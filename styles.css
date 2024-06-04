@@ -1,16 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #dc9d9d;
+    background-color: #dcd9d9;
 }
 
 .container {
     max-width: 600px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #dccece;
+    background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 50vh;
+    min-height: 50;
 }
 h1 {
     font-size: 2em; 
@@ -55,6 +55,7 @@ li {
     border-bottom: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4px;
 }
 
 li:last-child {
